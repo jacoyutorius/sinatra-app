@@ -1,9 +1,9 @@
-# The manifest for the "sinatra-app-runner" service.
+# The manifest for the "sinatra-apprunner" service.
 # Read the full specification for the "Request-Driven Web Service" type at:
 # https://aws.github.io/copilot-cli/docs/manifest/rd-web-service/
 
 # Your service name will be used in naming your resources like log groups, App Runner services, etc.
-name: sinatra-app-runner
+name: sinatra-apprunner
 # The "architecture" of the service you're running.
 type: Request-Driven Web Service
 
@@ -36,7 +36,7 @@ memory: 2048
 #   project: project-name
 
 # You can override any of the values defined above by environment.
-# environments:
-#   test:
-#     variables:
-#       LOG_LEVEL: debug        # Log level for the "test" environment.
+environments:
+  test:
+    variables:
+      LOG_LEVEL: debug        # Log level for the "test" environment.
