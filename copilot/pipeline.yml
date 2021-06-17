@@ -1,7 +1,7 @@
 # This YAML file defines the relationship and deployment ordering of your environments.
 
 # The name of the pipeline
-name: pipeline-sinatra-apprunner-sinatra-app
+name: pipeline-sinatraapp
 
 # The version of the schema used in this template
 version: 1
