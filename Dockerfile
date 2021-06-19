@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY Gemfile* .
 COPY app.rb .
-COPY views/ ./views
+COPY views/ ./views/
 RUN bundle install
 
 EXPOSE 80
